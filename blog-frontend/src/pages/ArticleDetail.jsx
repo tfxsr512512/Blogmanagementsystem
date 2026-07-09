@@ -50,7 +50,7 @@ export default function ArticleDetail() {
     .filter((a) => a.id !== article.id && (a.category === article.category || a.tags.some((t) => article.tags.includes(t))))
     .slice(0, 3);
 
-  const authorAvatar = generateAvatar('禅意编码');
+  const authorAvatar = generateAvatar('TFX');
 
   return (
     <div className="article-detail-page">
@@ -78,7 +78,7 @@ export default function ArticleDetail() {
           <div className="article-meta-detail">
             <div className="author-info">
               <img src={authorAvatar} alt="作者" className="author-avatar" />
-              <span className="author-name">禅意编码</span>
+              <span className="author-name">TFX</span>
             </div>
             <div className="meta-items">
               <span className="meta-item">

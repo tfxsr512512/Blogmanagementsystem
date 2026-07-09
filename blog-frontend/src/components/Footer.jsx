@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3 className="footer-logo">
             <span className="logo-bracket">{'<'}</span>
-            禅意编码
+            TFX的碎碎念
             <span className="logo-bracket">{'/>'}</span>
           </h3>
           <p className="footer-desc">诗意科技 · 静谧未来主义</p>
@@ -55,7 +55,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <p>
-          Made with <Heart size={12} className="heart-icon" /> by 禅意编码 · {new Date().getFullYear()}
+          Made with <Heart size={12} className="heart-icon" /> by TFX的碎碎念 · {new Date().getFullYear()}
         </p>
       </div>
     </footer>

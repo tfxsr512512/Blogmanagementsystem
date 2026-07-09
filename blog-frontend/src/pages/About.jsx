@@ -2,13 +2,13 @@ import { Code2, Mail, BookOpen, Cpu, Sparkles, Coffee } from 'lucide-react';
 import { generateAvatar } from '../utils/images';
 
 export default function About() {
-  const avatar = generateAvatar('禅意编码');
+  const avatar = generateAvatar('TFX');
 
   return (
     <div className="about-page">
       <div className="about-hero">
         <img src={avatar} alt="头像" className="about-avatar" />
-        <h1 className="about-name">禅意编码</h1>
+        <h1 className="about-name">TFX</h1>
         <p className="about-tagline">诗意科技 · 静谧未来主义</p>
         <p className="about-bio">
           一个热爱技术与设计的开发者，在代码与诗意之间寻找平衡。

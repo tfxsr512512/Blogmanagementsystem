@@ -6,7 +6,7 @@ export default function ArticleCard({ article, index = 0 }) {
     <Link
       to={`/article/${article.id}`}
       className="article-card"
-      style={{ animationDelay: `${index * 0.1}s` }}
+      style={{ animationDelay: `${index * 0.08}s` }}
     >
       <div className="article-card-cover">
         <img src={article.cover} alt={article.title} loading="lazy" />
@@ -39,7 +39,6 @@ export default function ArticleCard({ article, index = 0 }) {
           </span>
         </div>
       </div>
-      <div className="article-card-glow"></div>
     </Link>
   );
 }

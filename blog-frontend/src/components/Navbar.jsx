@@ -49,7 +49,7 @@ export default function Navbar({ theme, toggleTheme }) {
         <Link to="/" className="navbar-logo">
           <span className="logo-text">
             <span className="logo-bracket">{'<'}</span>
-            禅意编码
+            TFX的碎碎念
             <span className="logo-bracket">{'/>'}</span>
           </span>
           <span className="logo-glow"></span>
